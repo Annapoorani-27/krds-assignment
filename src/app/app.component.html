@@ -1,0 +1,119 @@
+<div class="row">
+  <div class="col-md-12">
+
+    <!-- <h5>Desktop Design</h5> -->
+    <div *ngIf="responseFeatures">
+      <div class="flex-container">
+        <div class="item1">
+          <img class="aoc-logo" [src]="responseObject['logo']">
+          <div *ngIf="responseFeatures[0]" class="flex-row img1-custom-style1">
+            <div class="flex-column img1-custom-style2">
+
+
+              <div class="logo-container"><img class="logo" [src]="responseFeatures[0]['logo']"></div>
+              <div class="border-line-style">
+                <div class="img_text left-text-align">{{img1_text}}</div>
+              </div>
+
+              <div class="img_desc left-text-align">{{img1_desc}}</div>
+            </div>
+            <div style="margin-top: 6%;"> <img style="height: 55%;" [src]="responseFeatures[0]['image']"></div>
+
+          </div>
+        </div>
+
+        <div class="item2">
+            <div *ngIf="responseFeatures[0]" class="flex-row img2-custom-style1">
+                <div class="flex-column img2-custom-style2">
+    
+    
+                  <div class="logo-container"><img class="logo" [src]="responseFeatures[1]['logo']"></div>
+                  <div class="border-line-style">
+                    <div class="img_text left-text-align">{{img2_text}}</div>
+                  </div>
+    
+                  <div class="img_desc left-text-align">{{img2_desc}}</div>
+                </div>
+                <div > <img style="height: 55%;" [src]="responseFeatures[1]['image']"></div>
+    
+              </div>
+        </div>
+
+
+        <div class="item3">
+            <div *ngIf="responseFeatures[2]" class="flex-row img2-custom-style1">
+                <div class="flex-column img2-custom-style2">
+    
+    
+                  <div class="logo-container"><img class="logo" [src]="responseFeatures[2]['logo']"></div>
+                  <div class="border-line-style">
+                    <div class="img_text left-text-align">{{img3_text}}</div>
+                  </div>
+    
+                  <div class="img_desc left-text-align">{{img3_desc}}</div>
+                </div>
+                <div > <img style="height: 55%;" [src]="responseFeatures[2]['image']"></div>
+    
+              </div>
+        </div>
+
+      </div>
+      <div class="flex-container">
+        <div class="item4">
+            <div *ngIf="responseFeatures[3]" class="flex-row img2-custom-style1">
+                <div class="flex-column img2-custom-style2">
+    
+    
+                  <div class="logo-container"><img class="logo" [src]="responseFeatures[3]['logo']"></div>
+                  <div class="border-line-style">
+                    <div class="img_text left-text-align">{{img4_text}}</div>
+                  </div>
+    
+                  <div class="img_desc left-text-align">{{img4_desc}}</div>
+                </div>
+                <div> <img style="height: 55%;" [src]="responseFeatures[3]['image']"></div>
+    
+              </div>
+        </div>
+        <div class="item5">
+            <div *ngIf="responseFeatures[4]" class="flex-row img2-custom-style1">
+                <div class="flex-column img2-custom-style2">
+    
+    
+                  <div class="logo-container"><img class="logo" [src]="responseFeatures[4]['logo']"></div>
+                  <div class="border-line-style">
+                    <div class="img_text left-text-align">{{img5_text}}</div>
+                  </div>
+    
+                  <div class="img_desc left-text-align">{{img5_desc}}</div>
+                </div>
+                <div > <img style="height: 55%;" [src]="responseFeatures[4]['image']"></div>
+    
+              </div>
+        </div>
+        <div class="item6">
+            <div *ngIf="responseFeatures[5]" class="flex-row img2-custom-style1">
+                <div class="flex-column img2-custom-style2">
+    
+    
+                  <div class="logo-container"><img class="logo" [src]="responseFeatures[5]['logo']"></div>
+                  <div class="border-line-style">
+                    <div class="img_text left-text-align">{{img6_text}}</div>
+                  </div>
+    
+                  <div class="img_desc left-text-align">{{img6_desc}}</div>
+                </div>
+                <div> <img style="height: 55%;" [src]="responseFeatures[5]['image']"></div>
+    
+              </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+
+<router-outlet></router-outlet>

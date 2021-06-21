@@ -1,0 +1,119 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    height: 48vh;
+    color: #daeee2;
+    font-family: 'Open Sans'
+    
+  }
+  .item1 {
+    background-color: #51b674;
+    padding: 10px;
+   flex: 50%;
+  }
+  .item2 {
+    background-color: #ffaa67;
+    padding: 10px;
+    flex: 50%;
+  }
+  .item3 {
+    background-color: #6193d0;
+    padding: 10px;
+   flex: 50%;
+  }
+  .item4 {
+    background-color: #fc8260;
+    padding: 10px;
+    flex: 50%;
+  }
+  .item5 {
+    background-color: #ef6a6e;
+    padding: 10px;
+    flex: 50%;
+  }
+  .item6{
+    background-color: #36c8e3;
+    padding: 10px;
+    flex: 50%;
+  }
+  .img1-style{
+    height: 58%;
+    float: right;
+    margin-top: 23%;
+    margin-right: 6%;
+  }
+  .img2-style{
+    height: 80%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 6%;
+  }
+  .img4-style{
+    height: 80%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 6%;
+  }
+  .logo-style{
+    height: 13%;
+    margin-top: 27%;
+  }
+  .flex-row{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  }
+
+  .flex-column{
+    display: flex;
+         flex-direction: column;
+  }
+  .img_desc{
+font-size: 11px;
+text-transform: uppercase;
+padding-top: 10px;
+  }
+  .img_text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    width: 8rem;
+  }
+  .left-text-align{
+    text-align: left;
+  }
+  .logo-container{
+height: 45px;
+width: 48px;
+  }
+  .logo{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .img1-custom-style1{
+    margin-top: 21%;
+    margin-left: 10%;
+  }
+  .img1-custom-style2{
+margin-top: 5%;
+  }
+  .img2-custom-style1{
+    margin-top: 17%;
+    margin-left: 10%;
+  }
+  .img2-custom-style2{
+    margin-top: 15%;
+      }
+  .border-line-style{
+    width: 144px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+  }
+  .aoc-logo{
+    height: 7%;
+   
+    float: left;
+    margin-left: 23px
+  }
